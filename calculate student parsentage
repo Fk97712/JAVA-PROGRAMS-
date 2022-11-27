@@ -1,0 +1,29 @@
+package com.compony;
+
+import  java.lang.String;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+    //this is the of how to calculate student parsentage
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter English number");
+        int num1 = sc.nextInt();
+        System.out.println("enter hindi number");
+        int num2= sc.nextInt();
+        System.out.println("enter physics  number");
+        int num3= sc.nextInt();
+
+        System.out.println("enter chemistry number");
+        int num4= sc.nextInt();
+
+
+        System.out.println("enter Math number");
+        int num5= sc.nextInt();
+        float total = (num1+num2+num3+num4+num5)/5;
+        System.out.println("total parsentage is ");
+        System.out.println(total);
+
+
+    }
+}
