@@ -1,0 +1,19 @@
+package com.compony;
+
+import  java.lang.String;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        System.out.println("Its works");
+        System.out.println("enter two number");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter first number");
+        int a = sc.nextInt();
+        System.out.println("enter second no");
+        int b = sc.nextInt();
+        int sum = a + b;
+        System.out.println(sum);
+    }
+}
